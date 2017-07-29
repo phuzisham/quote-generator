@@ -1,0 +1,86 @@
+body {
+  font-family: roboto;
+  text-align: center;
+  background-color: #161616;
+}
+
+h1 {
+  font-size: 3.5vw;
+  margin-top: 5%;
+  color: #fff;
+}
+
+.quote-box {
+  padding: 15px;
+  color: #fff;
+  background-color: #272727;
+  width: 60%;
+  height: 30%;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+#quote {
+  text-align: left;
+  font-size: 3vw;
+  font-style: italic;
+}
+
+#author {
+  font-size: 1.5vw;
+  float: right;
+}
+
+.fa-twitter {
+  font-size: 2vw !important;
+  background: #161616;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.fa-twitter:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+  transition: transform 0.37s ease-in-out;
+}
+
+button {
+  border-radius: 20px;
+  border: none;
+  background-color: #161616;
+  color: #fff;
+  margin: 10px;
+  padding-top: 4.5px;
+  font-size: 2vw;
+  font-style: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+  transition: transform 0.37s ease-in-out;
+}
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 5.5vw;
+  }
+
+  #quote {
+    font-size: 5vw;
+  }
+
+  #author {
+    font-size: 3.5vw;
+  }
+
+  .fa twitter {
+    font-size: 70%;
+  }
+
+  button {
+    font-size: 80%;
+  }
+}

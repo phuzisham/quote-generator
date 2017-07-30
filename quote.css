@@ -11,7 +11,8 @@ h1 {
 }
 
 .quote-box {
-  padding: 15px;
+  display: block;
+  padding: 7px;
   color: #fff;
   background-color: #272727;
   width: 60%;
@@ -22,6 +23,7 @@ h1 {
 }
 
 #quote {
+  margin-left: 4px;
   text-align: left;
   font-size: 3vw;
   font-style: italic;
@@ -33,7 +35,7 @@ h1 {
 }
 
 .fa-twitter {
-  font-size: 2vw !important;
+  font-size: 20px !important;
   background: #161616;
   color: #fff;
   padding: 10px;
@@ -52,8 +54,9 @@ button {
   background-color: #161616;
   color: #fff;
   margin: 10px;
-  padding-top: 4.5px;
-  font-size: 2vw;
+  padding: 7px;
+  //padding-top: 4.5px;
+  font-size: 20px;
   font-style: bold;
 }
 
@@ -63,9 +66,14 @@ button:hover {
   transition: transform 0.37s ease-in-out;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 750px) {
   h1 {
     font-size: 5.5vw;
+  }
+
+  .quote-box {
+    height: 35%;
+    width: 70%;
   }
 
   #quote {
@@ -77,10 +85,10 @@ button:hover {
   }
 
   .fa twitter {
-    font-size: 70%;
+    font-size: 14px;
   }
 
   button {
-    font-size: 80%;
+    font-size: 14px;
   }
 }

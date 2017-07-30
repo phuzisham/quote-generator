@@ -11,7 +11,7 @@ h1 {
 }
 
 .quote-box {
-  display: block;
+  display: inline-block;
   padding: 7px;
   color: #fff;
   background-color: #272727;
@@ -73,7 +73,7 @@ button:hover {
 
   .quote-box {
     height: 35%;
-    width: 70%;
+    width: 75%;
   }
 
   #quote {
@@ -82,13 +82,5 @@ button:hover {
 
   #author {
     font-size: 3.5vw;
-  }
-
-  .fa twitter {
-    font-size: 14px;
-  }
-
-  button {
-    font-size: 14px;
   }
 }
